@@ -5,29 +5,40 @@
         <title>Form</title>
  </head>
     <body>
-<fieldset>
-        <legend>Личная информация</legend>
+
 <form action="18;03.html" method="post">
-    <label for="name">Введите имя:</label>
+    <fieldset>
+        <legend>Личная информация</legend>
+    <!-- филдсет создаёт рамку вокруг нужных элементов, а легенд даёт этой рамке название -->
+    <p><label for="name">Введите имя:</label></p>
     <input type="text" id="name" name="name">
+    <!-- поле для ввода имени -->
 
-<p><form action="18;03.html" method="post"></form></p> 
-    <label for="email">Введите почту:</label>
+    <p><label for="email">Введите почту:</label></p>
     <input type="email" id="email" name="email">
-
-<p><form action="18;03.html" method="post"></form></p>
-    <label for="password">Введите пароль:</label>
+<!-- поле для ввода почты -->
+    <p><label for="password">Введите пароль:</label></p>
     <input type="password" id="password" name="password">
+    <!-- поле для ввода пароля -->
+    <p>
+    <label for="comment">Введите комментарий:</label></p>
+    <textarea id="comment" name="comment" rows="4" cols="30"></textarea>
+    <!-- поле для ввода многострочного комментария -->
 
- <p><label for="country">Выберите свою страну:</label></p>
+    </p>
+
+  <p><label for="country">Выберите свою страну:</label></p> 
     <select id="country" name="country" required>
     <option value="us">США</option>
-    <option value="ca">Россия</option>
-    <option value="uk">Канада</option>
-    <option value="au">Казахстан</option>
+    <option value="ru">Россия</option>
+    <option value="ca">Канада</option>
+    <option value="kz">Казахстан</option>
 </select>
+<!-- выпадающий список для выбора страны -->
 <p><button type="submit">Отправить</button></p>
+<!-- кнопка для отправки формы -->
 <button type="reset">Сбросить</button>
+<!-- кнопка для очистки всех полей в группе -->
 </fieldset>
 </form>
 
