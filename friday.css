@@ -1,11 +1,23 @@
-p {color: blue;}
+p {
+    color: rgb(13, 255, 0);
+}
 
-.bold-item {font-weight: bold;}
+.bold-item {
+    font-weight: bold;
+}
 
-#main-title {color: red;}
+#main-title {
+    color: rgb(0, 4, 255);
+}
 
-h2 {color: green;}
+h2 {
+    color: green;
+}
 
-.priority-class {color: orange;}
+.priority-class {
+    font-weight: bold;;
+}
 
-#priority-id {color: purple;}
+#priority-id {
+    color: rgb(255, 0, 0);
+}
