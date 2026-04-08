@@ -1,0 +1,28 @@
+h1 {
+    color: rgb(22, 155, 25);
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #0000ff;
+}
+
+.container {
+    font-size: 1.2em;
+    width: 80%;
+}
+
+.item {
+    width: 100%;
+    padding: 10px;
+    background-color: #cccccc;
+}
+
+p {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+    
+
