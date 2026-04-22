@@ -1,0 +1,29 @@
+
+.inline-to-block {
+   display: block;
+   margin: 5px 0;
+}
+.block-to-inline {
+   display: inline;
+   background-color: blanchedalmond;
+}
+   .inline {
+     background-color: lightgreen;
+     margin: 0 5px;
+     padding: 5px;
+   }
+           
+   .block {
+     background-color: rgb(18, 160, 208);
+     margin: 10px 0;
+     padding: 10px;
+   }
+   .container {
+   border: 2px solid black;
+   padding: 30px;
+   margin: 20px;
+   display: block;
+   }
+
+
+
