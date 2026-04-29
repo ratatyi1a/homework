@@ -1,0 +1,35 @@
+.button:hover{  
+        background-color: #008e76;
+}
+
+.input:focus {
+    border: 5px solid #00ef34;
+}
+
+.list-item:first-child {
+    background-color: red;
+}
+
+.list-item:last-child {
+    background-color: rgb(21, 0, 255);
+}
+
+.link:hover {
+    color: #09ff00;
+}
+
+.div-text:nth-child(odd) {
+   background-color: #534848c7;
+}
+
+.div-text:nth-child(even) {
+   background-color: #837a52;
+}
+
+.cont:hover:first-child {
+    color: #ff0000;
+}
+
+.cont:focus:last-child {
+    border: 5px solid #8e0c7f;
+}
