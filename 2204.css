@@ -1,35 +1,44 @@
 .button:hover{  
         background-color: #008e76;
+        /* при наведении меняет цвет */
 }
 
 .input:focus {
     border: 5px solid #00ef34;
+    /* при активации изменяет цвет */
 }
 
 .list-item:first-child {
     background-color: red;
+    /* изменяет цвет первого элемента */
 }
 
 .list-item:last-child {
     background-color: rgb(21, 0, 255);
+    /* изменяет цвет последнего элемента */
 }
 
 .link:hover {
     color: #09ff00;
+    /* изменяет цвет при наведении на ссылку */
 }
 
 .div-text:nth-child(odd) {
    background-color: #534848c7;
+   /* изменяет цвет нечетных элементов */
 }
 
 .div-text:nth-child(even) {
    background-color: #837a52;
+   /* изменяет цвет четных элементов */
 }
 
 .cont p:hover:first-child {
     color: #ff0000;
+    /* изменяет цвет первого абзаца внутри cont при наведении */
 }
 
 .cont input:focus:last-child {
     border: 10px solid #f502d9;
+    /* изменяет цвет последнего input внутри cont при активации */
 }
