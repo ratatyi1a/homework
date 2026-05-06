@@ -26,10 +26,10 @@
    background-color: #837a52;
 }
 
-.cont:hover:first-child {
+.cont p:hover:first-child {
     color: #ff0000;
 }
 
-.cont:focus:last-child {
-    border: 5px solid #8e0c7f;
+.cont input:focus:last-child {
+    border: 10px solid #f502d9;
 }
