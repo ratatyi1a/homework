@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAC Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <header class="header">
+            <h1 class="logo">AAC Builder</h1>
+            <nav class="nav">
+                <a href="#" class="active">Inventory</a>
+                <a href="#">Skills</a>
+                <a href="#">Boons</a>
+                <a href="#">Loadouts</a>
+            </nav>
+            <div class="settings">
+                <button class="settings-button" aria-label="Settings">
+                    <img src="images/gear.svg" class="icon-img" alt="Settings">
+                </button>
+                <div class="avatar-ring">
+                    <img src="images/avatar.jpg" class="avatar" alt="Character Avatar">
+                </div>
+            </div>
+        </header>
+        <main class="main-content">
+            <section class="column forge-column">
+                <h2 class="column-title">КОВКА</h2>
+                <div class="forge-zone">
+                    <div class="forge-slot">
+                        <img src="images/anvil-impact-svgrepo-com.svg" class="icon-img forge-icon" alt="Forge">
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-text">
+                            <span>ПРОГРЕСС УЛУЧШЕНИЯ</span>
+                            <span>12 / 15</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="forge-stats">
+                    <div class="stat-box">
+                        <span class="stat-label">АТАКА</span>
+                        <span class="stat-value">+45</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-label">КРИТ</span>
+                        <span class="stat-value">+1.2%</span>
+                    </div>
+                </div>
+                <button class="btn btn-action">
+                    <img src="images/anvil-impact-svgrepo-com.svg" class="icon-img UI-icon" alt="">
+                    УЛУЧШИТЬ ПРЕДМЕТ
+                </button>
+            </section>
+            <section class="column character-column">
+                <div class="equipment-screen">
+
+                    <div class="equip-side left-slots">
+                        <div class="slot" title="Шлем">
+                            <img src="images/helmet-svgrepo-com.svg" class="icon-img" alt="Helmet">
+                        </div>
+                        <div class="slot" title="Броня">
+                            <img src="images/originals-breastplate.svg" class="icon-img" alt="Armor">
+                        </div>
+                        <div class="slot" title="Поножи/Штаны">
+                            <img src="images/leggings-svgrepo-com.svg" class="icon-img" alt="Leggings">
+                        </div>
+                        <div class="slot" title="Сапоги">
+                            <img src="images/boots-svgrepo-com.svg" class="icon-img" alt="Boots">
+                        </div>
+                    </div>
+                    <div class="character-silhouette"></div>
+                    <div class="equip-side right-slots">
+                        <div class="slot compatible" title="Оружие">
+                            <img src="images/sword-svgrepo-com.svg" class="icon-img" alt="Weapon">
+                        </div>
+                        <div class="slot" title="Щит">
+                            <img src="images/attached-shield-svgrepo-com.svg" class="icon-img" alt="Shield">
+                        </div>
+                        <div class="slot" title="Кольцо">
+                            <img src="images/ring-svgrepo-com.svg" class="icon-img" alt="Ring">
+                        </div>
+                        <div class="slot" title="Дополнительный аксессуар">
+                        </div>
+                    </div>
+                </div>
+                <div class="stats-panel">
+                    <div class="panel-header">
+                        <h3>ХАРАКТЕРИСТИКИ</h3>
+                        <span class="lvl-badge">LVL 92 ASCENDED</span>
+                    </div>
+                    <div class="core-stats">
+                        <div><span>STR</span><strong>18</strong></div>
+                        <div><span>DEX</span><strong>24</strong></div>
+                        <div><span>CON</span><strong>15</strong></div>
+                        <div><span>INT</span><strong>12</strong></div>
+                        <div><span>FTH</span><strong>08</strong></div>
+                        <div><span>LCK</span><strong>10</strong></div>
+                        <div><span>CHA</span><strong>12</strong></div>
+                    </div>
+                    <div class="combat-stats">
+                        <div class="combat-stat">
+                            <span class="stat-label">ATK</span>
+                            <span class="stat-value highlight">1,248</span>
+                        </div>
+                        <div class="combat-stat">
+                            <span class="stat-label">DEF</span>
+                            <span class="stat-value">582</span>
+                        </div>
+                    </div>
+                    <div class="stamina-section">
+                        <div class="stamina-header">
+                            <span>STAMINA</span>
+                            <span>6 / 6</span>
+                        </div>
+                        <div class="stamina-bars">
+                            <span class="stamina-segment active"></span>
+                            <span class="stamina-segment active"></span>
+                            <span class="stamina-segment active"></span>
+                            <span class="stamina-segment active"></span>
+                            <span class="stamina-segment active"></span>
+                            <span class="stamina-segment active"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="saved-sets">
+                    <div class="sets-header">
+                        <h4>СОХРАНЕННЫЕ НАБОРЫ</h4>
+                        <button class="link-btn">SAVE CURRENT SET</button>
+                    </div>
+                    <div class="sets-list">
+                        <span class="set-item active">01</span>
+                        <span class="set-item">02</span>
+                        <span class="set-item">03</span>
+                        <div class="set-item add-set">+</div>
+                        </span>
+                    </div>
+                </div>
+            </section>
+            <div class="right-layout">
+                <section class="column inventory-window">
+                    <div class="search-box">
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14"
+                            height="14" fill="none" stroke="#3a4a3d" stroke-width="2A" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <input type="text" placeholder="ПОИСК СНАРЯЖЕНИЯ">
+                    </div>
+                    <div class="filters">
+                        <button class="filter-btn active">ВСЕ</button>
+                        <button class="filter-btn">ЩИТЫ</button>
+                        <button class="filter-btn">БРОНЯ</button>
+                        <button class="filter-btn">ОРУЖИЕ</button>
+                        <button class="filter-btn">АКСЕССУАРЫ</button>
+                    </div>
+                    <div class="items-list">
+                        <div class="item-card active">
+                            <div class="item-icon item-legendary">
+                                <img src="images/sword-svgrepo-com.svg" class="icon-img" alt="">
+                            </div>
+                            <div class="item-info">
+                                <h5>Blade of the Void</h5>
+                                <span class="rarity legendary">ЛЕГЕНДАРНОЕ</span>
+                            </div>
+                        </div>
+                        <div class="item-card">
+                            <div class="item-icon">
+                                <img src="images/attached-shield-svgrepo-com.svg" class="icon-img" alt="">
+                            </div>
+                            <div class="item-info">
+                                <h5>Shield of the Guardian</h5>
+                                <span class="rarity rare">РЕДКОЕ</span>
+                            </div>
+                        </div>
+                        <div class="item-card">
+                            <div class="item-icon">
+                                <img src="images/helmet-svgrepo-com.svg" class="icon-img" alt="">
+                            </div>
+                            <div class="item-info">
+                                <h5>Oakheart Helmet</h5>
+                                <span class="rarity common">ОБЫЧНОЕ</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="column details-window">
+                    <div class="details-header">
+                        <div class="details-image">
+                            <span class="detail-badge">+12</span>
+                            <img src="images/sword-svgrepo-com.svg" class="icon-img" alt="">
+                        </div>
+                        <div class="details-title">
+                            <h4>BLADE OF THE VOID</h4>
+                            <span class="sub-rarity">LEGENDARY SWORD</span>
+                        </div>
+                    </div>
+
+                    <div class="detail-stats">
+                        <div class="detail-stat">
+                            <span class="stat-label">STR</span>
+                            <span class="stat-value highlight">+124</span>
+                        </div>
+                        <div class="detail-stat">
+                            <span class="stat-label">CRIT RATE</span>
+                            <span class="stat-value highlight">+12%</span>
+                        </div>
+                    </div>
+
+                    <div class="passive-skill">
+                        <div class="passive-title">
+                            <img src="images/anvil-impact-svgrepo-com.svg" class="icon-img passive-icon" alt="">
+                            RAGE OF THE VOID
+                        </div>
+                        <p>Каждый третий удар поглощает жизненную силу противника, восстанавливая 5% здоровья и
+                            увеличивая скорость атаки на 15% на 4 секунды.</p>
+                    </div>
+
+                    <p class="item-flavor">«Этот клинок был выкован в сердце угасшей звезды, мастерами, чьи имена давно
+                        забыты ветрами времени.»</p>
+
+                    <div class="action-buttons">
+                        <button class="btn btn-action btn-equip">ЭКИПИРОВАТЬ</button>
+                        <button class="btn-delete" title="Удалить предмет">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"
+                                fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <polyline points="3 6 5 6 21 6"></polyline>
+                                <path
+                                    d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                                </path>
+                                <line x1="10" y1="11" x2="10" y2="17"></line>
+                                <line x1="14" y1="11" x2="14" y2="17"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+
+        <footer class="footer">
+            <div class="footer-left">AAC Builder</div>
+            <div class="footer-center">
+                <a href="#">PATCH NOTES</a>
+                <a href="#">SUPPORT</a>
+                <a href="#">TERMS</a>
+            </div>
+            <div class="footer-right">SYSTEM STATUS: OPTIMAL | SERVER: EARTH-1</div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
