@@ -97,6 +97,7 @@ body {
     border-radius: 6px;
     border-bottom: 2px solid transparent;
     transition: color 0.2s;
+    box-shadow:     0 0 0 1px transparent;
 }
 
 .nav a:hover {
@@ -875,6 +876,9 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+
+
 
 @media (max-width: 1024px) {
     body {
