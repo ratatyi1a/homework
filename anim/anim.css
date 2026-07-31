@@ -1,0 +1,81 @@
+.animation-rotate {
+    transform: rotate(1deg);  
+    animation: rotate 2s linear infinite;
+    width: 150px;
+}
+
+.animation-scale {
+    transform: scale(1.1);
+    animation: scale 2s linear infinite;
+}
+
+.animation-translate {
+    transform: translateX(90px);
+    animation: translate 2s linear infinite;
+}
+
+.animation-skew {
+    transform: skew(35deg);
+    animation: skew 2s linear infinite;
+}
+
+.animation-link a {
+    text-decoration: none;
+    color: #ff0000;
+    transition: all 1s ease;
+    
+    display: inline-block;
+}
+.animation-link a:hover {
+    color: #00ff00;
+    animation: link 2s linear infinite;
+}
+
+@keyframes link {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+    
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(1deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+
+@keyframes translate {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(90px);
+    }
+}
+
+@keyframes skew {
+    from {
+        transform: skew(0deg);
+    }
+    to {
+        transform: skew(35deg);
+    }
+}
+
+
