@@ -1,0 +1,99 @@
+.china::before {
+  content: "Кита́й";
+  color: red;
+  font-size: 30px;
+  /* before вставляет контент до элемента что указали */
+}
+
+.usa::before {
+  content: "The United States of America";
+  color: blue;
+  font-size: 30px;
+}
+
+.russia::before {
+  content: "Росси́я";
+  color: green;
+  font-size: 30px;
+}
+
+.china::after {
+  content: " валюта кита́йские юани";
+  color: rgb(255, 230, 0);
+  font-size: 30px;
+  /* after вставляет контент после элемента что указали */
+}
+
+.usa::after {
+  content: " валюта американский доллар";
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+}
+
+.russia::after {
+  content: " валюта росийский рубль";
+  color: rgb(0, 13, 255);
+  font-size: 30px;
+}
+
+.USSR::before {
+  content: "☭СССР";
+  color: rgb(234, 3, 3);
+  font-size: 30px;
+}
+
+.USSR::after {
+  content: " валюта советский рубль☭";
+  color: rgb(234, 3, 3);
+  font-size: 30px;
+}
+
+.chinaInfo::before {
+  content: "🈴";
+  color: rgb(255, 230, 0);
+  font-size: 30px;
+}
+
+.chinaInfo::after {
+  content: "🌸";
+  color: rgb(255, 230, 0);
+  font-size: 30px;
+}
+
+.usaInfo::before {
+  content: "🗽";
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+}
+
+.usaInfo::after {
+  content: "🦅";
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+}
+
+.russiaInfo::before {
+  content: "🪆";
+  color: rgb(0, 13, 255);
+  font-size: 30px;
+}
+
+.russiaInfo::after {
+  content: "🐻";
+  color: rgb(0, 13, 255);
+  font-size: 30px;
+}
+
+.ammo::before {
+  content: "|";
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+.ammo::after {
+  content: "▶";
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  
+}
+  
