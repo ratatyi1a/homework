@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    background: #fafafa;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #1a1a2e;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.header__nav-item {
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.header__nav-item:hover {
+    color: #4ea1ff;
+}
+
+.header__button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.header__button--login {
+    background: #4ea1ff;
+    color: #fff;
+}
+
+.header__button--login:hover {
+    background: #2f8ae0;
+}
+
+.content__hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #eef3fb;
+}
+
+.content__title {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #1a1a2e;
+}
+
+.content__text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.content__button {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.content__button--primary {
+    background: #1a1a2e;
+    color: #fff;
+}
+
+.content__button--primary:hover {
+    background: #33334d;
+}
+
+.content__cards {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #1a1a2e;
+}
+
+.card__text {
+    font-size: 14px;
+    color: #666;
+}
+
+.card--accent {
+    border: 2px solid #4ea1ff;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #1a1a2e;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.footer__social {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.footer__social-item {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.footer__social-item:hover {
+    color: #4ea1ff;
+}
